@@ -22,3 +22,8 @@ npm run storybook
 # Run the frontend app proper on port 5173:
 npm run dev
 ```
+
+## Simpole component
+
+- Added `Task` component and story.
+- Updated configs 
