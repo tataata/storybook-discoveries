@@ -1,0 +1,16 @@
+/* Avatar */
+.avatar {
+  margin: 80px;
+  width: 80px;
+  text-align: center;
+}
+
+.avatar img {
+  margin: 0 0 5px;
+  display: block;
+  max-width: 100%;
+}
+
+.avatar .rounded {
+  border-radius: 50%;
+}
