@@ -9,7 +9,7 @@ export default function Task({
   return (
     <div className={`list-item ${state}`}>
       <label
-        htmlFor="checked"
+        htmlFor={`archiveTask-${id}`}
         aria-label={`archiveTask-${id}`}
         className="checkbox"
       >
@@ -23,12 +23,13 @@ export default function Task({
         <span className="checkbox-custom" onClick={() => onArchiveTask(id)} />
       </label>
 
-      <label htmlFor="title" aria-label={title} className="title">
+      <label htmlFor={`task-${id}`} aria-label={title} className="title">
         <input
           type="text"
           value={title}
           readOnly={true}
           name="title"
+          id={`task-${id}`}
           placeholder="Input title"
         />
       </label>
